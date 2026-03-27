@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #161616;
+  color: #F5F5F5;
+}
+
+a, div {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-family: Urbanist, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Arimo, Arial, Helvetica, sans-serif;
+  margin: 0;
+}

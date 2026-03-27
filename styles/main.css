@@ -1,0 +1,137 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 140px;
+}
+h1 {
+  font-size: 160px;
+  font-weight: bold;
+}
+h2 {
+  margin-top: -10px;
+  margin-bottom: 80px;
+  margin-left: 60px;
+  font-size: 50px;
+  color: #9CA3AF;
+  font-weight: 200;
+  font-family: Urbanist, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.circle-divider {
+  background-color: #84a9e6;
+  color: #84a9e6;
+  width: 40px;
+  height: 40px;
+  border-radius: 13px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.links {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 100px;
+}
+.links-divider {
+  margin-right: 40px;
+}
+.link-picture {
+  height: 23px;
+}
+.link {
+  margin-right: 10px;
+}
+.link:hover {
+  opacity: 85%;
+}
+
+
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 140px;
+}
+.about-p, .highlight-p {
+  font-size: 24px;
+  color: #9CA3AF;
+  padding-left: 300px;
+  padding-right: 140px;
+  line-height: 40px;
+  font-weight: 500;
+}
+span {
+  color: #F5F5F5;
+  font-weight: 600;
+}
+.email-button {
+  margin-left: 300px;  
+  border: none;
+  background-color: #84a9e6;
+  color: #161616;
+  font-size: 18px;
+  font-family: Arimo, Arial, Helvetica, sans-serif;
+  height: 50px;
+  width: 150px;
+  border-radius: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  transition: 0.05s;
+  font-weight: 600;
+}
+.email-button:hover {
+  opacity: 85%;
+}
+.email-button:active {
+  background-color: #F5F5F5;
+  color: #84a9e6;
+}
+
+
+
+
+
+.highlight-section {
+  margin-left: 100px;
+}
+h3 {
+  font-size: 160px;
+  font-weight: bold;
+
+}
+.highlight-p {
+  padding-left: 200px;
+}
+.highlight-image {
+  width: 1200px;
+}
+.highlight-image-container {
+  margin-top: 40px;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+
+
+
+.copyright {
+  margin-top: 390px;
+  font-family: Urbanist, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #9CA3AF;
+  font-size: 12px;
+}
