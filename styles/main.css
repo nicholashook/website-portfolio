@@ -90,6 +90,7 @@ span {
   margin-right: 20px;
   transition: 0.05s;
   font-weight: 600;
+  position: relative;
 }
 .email-button:hover {
   opacity: 85%;
@@ -98,7 +99,18 @@ span {
   background-color: #F5F5F5;
   color: #84a9e6;
 }
-
+.email-confirm-off {
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.15s ease;
+  top: 60px;
+  font-weight: 250; 
+  font-family: Urbanist, Arial, Helvetica, sans-serif;
+  color: #9CA3AF;
+}
+.email-confirm-on {
+  opacity: 1;
+}
 
 
 
@@ -109,7 +121,6 @@ span {
 h3 {
   font-size: 160px;
   font-weight: bold;
-
 }
 .highlight-p {
   padding-left: 200px;
