@@ -37,3 +37,24 @@ header {
   text-decoration-thickness: 0.5px;
   text-underline-offset: 4px;
 }
+
+
+
+@media (max-width: 850px) {
+  header {
+    margin: 40px;
+  }
+  .initials {
+    font-size: 15px;
+    height: 42px;
+    width: 42px;
+    border-radius: 13px;
+    margin-right: 17px;
+  }
+  .header-link {
+    font-size: 20px;
+  }
+  .services-link {
+    margin-right: 25px;
+  }
+}

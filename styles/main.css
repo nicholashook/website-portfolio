@@ -126,7 +126,7 @@ h3 {
   padding-left: 200px;
 }
 .highlight-image {
-  width: 1200px;
+  width: 90%;
 }
 .highlight-image-container {
   margin-top: 80px;
@@ -139,10 +139,108 @@ h3 {
 
 
 
+.pricing-links {
+  margin-left: 0;
+}
+
+
+
+
 .copyright {
   margin-top: 390px;
   font-family: Urbanist, Arial, Helvetica, sans-serif;
   text-align: center;
   color: #9CA3AF;
   font-size: 12px;
+}
+
+
+
+@media (max-width: 850px) {
+  .hero {
+    margin-left: 60px;
+    margin-top: 84px;
+  }
+  h1 {
+    font-size: 96px;
+  }
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 52px;
+    margin-left: 39px;
+    font-size: 32px;
+  }
+
+
+
+  .circle-divider {
+    width: 34px;
+    height: 34px;
+    border-radius: 11px;
+  }
+
+
+
+  .links {
+    margin-left: 60px;
+  }
+  .links-divider {
+    margin-right: 34px;
+  }
+  .link-picture {
+    height: 20px;
+  }
+  .link {
+    margin-right: 8px;
+  }
+
+
+
+
+  .about {
+    margin-bottom: 120px;
+  }
+  .about-p, .highlight-p {
+    font-size: 20px;
+    padding-left: 140px;
+    padding-right: 40px;
+    line-height: 30px;
+  }
+  .email-button {
+    margin-left: 140px;
+    font-size: 15px;
+    height: 42px;
+    width: 128px;
+    border-radius: 13px;
+  }
+  .email-confirm-off {
+    top: 51px;
+  }
+
+
+
+
+  .highlight-section, .pricing-section {
+    margin-left: 60px;
+  }
+  h3 {
+    font-size: 96px;
+    margin-bottom: 10px;
+  }
+  .highlight-p {
+    padding-left: 80px;
+  }
+  .highlight-image-container {
+    margin-left: -60px;
+    margin-top: 68px;
+    margin-bottom: 120px;
+  }
+
+  .pricing-links {
+    margin-left: 0px;
+  }
+
+  .copyright {
+    margin-top: 230px;
+  }
 }
